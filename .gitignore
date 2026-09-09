@@ -1,0 +1,38 @@
+# Build artifacts
+obj_dir/
+obj_dir_*/
+# External MIT-BIH dataset
+data/mitdb/
+# Synthesis intermediate
+synth_report/
+synth_*.log
+
+# Test artifacts
+test.log
+test_*.log
+*.vcd
+*.fst
+*.gtkw
+# Generated ECG plots
+data/*.png
+# Generated synthesis logs
+synth/*.log
+
+# Vendor projects
+*.xpr
+*.runs/
+*.cache/
+*.hw/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Private runbook — never publish
+LAUNCH.md
